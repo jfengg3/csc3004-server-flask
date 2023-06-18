@@ -1,0 +1,24 @@
+flask
+--
+pip install flask
+pip install flask-cors
+
+parser
+--
+pip install resume-parser
+
+
+spacy
+--
+pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
+pip install importlib-metadata==3.2.0
+
+nlp
+--
+python -m spacy download en_core_web_sm
+
+
+python -m nltk.downloader words
+python -m nltk.downloader stopwords
+
+
